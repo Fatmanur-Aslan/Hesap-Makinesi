@@ -1,0 +1,82 @@
+
+.container{
+display: grid; 
+margin-left: 42%;
+margin-top: 5%;
+text-align: center;
+width: 248px;
+height: 600px;
+padding: 10px;
+font-size: 20px;
+font-family:cursive;
+background-color:cornflowerblue;
+border:outset 5px grey;
+ 
+}
+
+#sayı1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#sayı2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#topla{
+    background-color:#7ABA78;
+    grid-column-start: 1;
+    grid-column-end:2;
+    
+}
+
+#çıkart{
+    background-color: #DD5746;
+    grid-column-start: 2;
+    grid-column-end:3 ;
+  
+}
+#çarp{
+    background-color:#EAD8C0;
+    
+}
+
+#böl{
+
+ background-color:#EAD8C0;
+}
+
+#sonuc{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+#silme{
+    background-color: #B3C8CF;
+
+}
+
+
+.container button{
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    font-family:cursive; 
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container input{
+    width: 240px;
+    height: 30px;
+    font-size: 20px
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .container{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+}
